@@ -29,7 +29,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.2.0/firebase-storage.js";
 
 const firebaseConfig = {
-  
+  //Your API keys
 };
 
 const app = initializeApp(firebaseConfig);
