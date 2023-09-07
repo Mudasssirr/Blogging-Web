@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+</head>
+<body class="login-signup-body">
+  
+    <div class="main">
+    <div class="wrapper">
+        <div class="card-switch">
+            <label class="switch">
+               <input class="toggle" type="checkbox">
+               <span class="slider"></span>
+               <span class="card-side"></span>
+               <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                     <div class="title">Log in</div>
+                     <div class="flip-card__form">
+                        <input type="email" placeholder="Email" name="email" class="flip-card__input login-input-email">
+                        <input type="password" placeholder="Password" name="password" class="flip-card__input login-input-password">
+                        <button class="flip-card__btn login-btn">Login</button>
+                     </div>
+                  </div>
+                  <div class="flip-card__back">
+                     <div class="title">Sign up</div>
+                     <div class="flip-card__form">
+                        <div>
+                        <input type="name" placeholder="Name" class="flip-card__input" id="name-input">
+                        <span class="error-charactors">Atlest 4 characters</span>
+                        </div>
+                        <input type="email" placeholder="Email" name="email" class="flip-card__input email-input" id="email-input">
+                        <input type="password" placeholder="Password" name="password" class="flip-card__input password input" id="password-input">
+                        <button class="flip-card__btn" id="sign-up">Signup</button>
+                    </div>
+                  </div>
+               </div>
+            </label>
+        </div>   
+   </div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="./login-signUp.js"></script>
+</body>
+</html>
